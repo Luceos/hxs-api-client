@@ -1,0 +1,27 @@
+{
+    "name": "hostingxs/api-client",
+    "description": "HostingXS API 2 client.",
+    "version": "2.1",
+    "homepage": "http://www.hostingxs.nl",
+    "keywords": [
+        "webservice",
+        "api",
+        "hostingxs",
+        "domains"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "dklabbers@hostingxs.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hostingxs\\Api\\Client\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    }
+}
